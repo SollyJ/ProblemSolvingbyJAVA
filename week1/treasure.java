@@ -1,7 +1,7 @@
 //backjoon 1026
 import java.util.*;
 
-public class Main {
+public class treasure {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
