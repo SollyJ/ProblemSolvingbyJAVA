@@ -16,7 +16,7 @@ public class prefixSum_2 {
         // sum_arr에 (i,k)까지의 누적합 넣기
         for(int i=1; i<=N; i++) {
             st = new StringTokenizer(br.readLine());
-            int tmp = 0;    // i번째 행에서 입력 받는 값의 누적합 저장할 임시변수
+            int tmp = 0;    // i번째 행 값들의 누적합 저장할 임시변수
             for(int k=1; k<=N; k++) {
                 tmp += Integer.parseInt(st.nextToken());
                 sum_arr[i][k] = tmp + sum_arr[i-1][k];
