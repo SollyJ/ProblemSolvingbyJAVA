@@ -17,7 +17,7 @@ public class prefixSum {
 
         st = new StringTokenizer(br.readLine());
         for(int i=1; i<=N; i++) {
-            sum_arr[i] = sum_arr[i-1] + Integer.parseInt(st.nextToken());
+            sum_arr[i] = sum_arr[i-1] + Integer.parseInt(st.nextToken());   // N개의 정수 중 i번째까지의 합을 저장하는 배열
         }
 
         for(int k=0; k<M; k++) {
