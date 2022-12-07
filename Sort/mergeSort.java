@@ -5,12 +5,16 @@ package Sort;
 import java.io.*;
 
 public class mergeSort {
+    // 계속 호출되니까 전역에 선언
+    public static int[] temp;
+
     public static void main(String[] args) throws NumberFormatException, IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         
         int N = Integer.parseInt(br.readLine());
         int[] arr = new int[N];
+        temp = new int[N];    // 병합정렬 할 때 임시로 쓰일 정렬변수
 
         for(int i=0; i<N; i++) {
             arr[i] = Integer.parseInt(br.readLine());
@@ -37,9 +41,7 @@ public class mergeSort {
     }
 
     // 병합 정렬 하는 함수
-    static void merge(int[] array, int start, int end, int mid) {
-        int[] temp = new int[array.length];    // 병합정렬 할 때 임시로 쓰일 정렬변수
-        
+    static void merge(int[] array, int start, int end, int mid) {        
         int k = start;   
         int index1 = start;   
         int index2 = mid + 1;   
