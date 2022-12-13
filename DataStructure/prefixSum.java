@@ -1,4 +1,4 @@
-// baek 11659
+// baek 11659 구간합
 package DataStructure;
 
 import java.io.*;

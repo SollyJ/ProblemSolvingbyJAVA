@@ -1,5 +1,6 @@
+// baekjoon 1166 선물
 package BinarySearch;
-// baekjoon 1166
+
 import java.util.*;
 import java.lang.*;
 
