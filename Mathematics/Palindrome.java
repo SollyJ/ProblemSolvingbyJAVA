@@ -8,18 +8,18 @@ public class Palindrome {
 		Scanner scan = new Scanner(System.in);
 		int N = scan.nextInt();
 
-		// 1단게: 2~1000000 까지 중 소수를 구한다.
-		int[] nums = new int[1000001];
+		// 1단게: 2~10000000 까지 중 소수를 구한다.
+		int[] nums = new int[10000001];
 
-		for (int i = 2; i <= 1000000; i++) {
+		for (int i = 2; i <= 10000000; i++) {
 			nums[i] = i;
 		}
 
-		for (int i = 2; i <= Math.sqrt(1000001); i++) {
+		for (int i = 2; i <= Math.sqrt(10000001); i++) {
 			if (nums[i] == 0)
 				continue;
 
-			for (int j = i * 2; j <= 1000000; j += i) {
+			for (int j = i * 2; j <= 10000000; j += i) {
 				nums[j] = 0;
 			}
 		}
