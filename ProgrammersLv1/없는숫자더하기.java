@@ -3,7 +3,7 @@ package ProgrammersLv1;
 
 import java.util.ArrayList;
 
-public class Programmers_없는숫자더하기 {
+public class 없는숫자더하기 {
 	public static void main(String[] args) {
 		int[] nums1 = {1, 2, 3, 4, 6, 7, 8, 0};
 		System.out.println(solution(nums1));
