@@ -1,5 +1,5 @@
 // Programmers_숫자짝꿍
-package ProgrammersLv1;
+package Map;
 
 import java.util.ArrayList;
 import java.util.Collections;

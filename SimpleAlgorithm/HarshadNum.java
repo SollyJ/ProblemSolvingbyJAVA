@@ -1,5 +1,5 @@
 // Programmers_하샤드수
-package ProgrammersLv1;
+package SimpleAlgorithm;
 
 public class HarshadNum {
 	public static void main(String[] args) {

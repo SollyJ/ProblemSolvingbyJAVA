@@ -1,5 +1,5 @@
 // Programmers_약수개수와더하기
-package ProgrammersLv1;
+package Mathematics;
 
 public class AliquotSum {
 	public static void main(String[] args) {

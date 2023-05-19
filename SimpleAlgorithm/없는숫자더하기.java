@@ -1,5 +1,5 @@
 // Programmers_없는숫자더하기
-package ProgrammersLv1;
+package SimpleAlgorithm;
 
 import java.util.ArrayList;
 

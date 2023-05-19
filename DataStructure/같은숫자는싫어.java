@@ -1,5 +1,6 @@
 // Programmers_같은숫자는싫어
-package ProgrammersLv1;
+// 스택
+package DataStructure;
 
 import java.util.Arrays;
 import java.util.Stack;

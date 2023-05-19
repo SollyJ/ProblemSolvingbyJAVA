@@ -1,5 +1,6 @@
 // Programmers_소수만들기
-package ProgrammersLv1;
+// 백트래킹
+package DFS;
 
 public class MakePrime {
 	static int answer;

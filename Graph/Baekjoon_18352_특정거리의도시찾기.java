@@ -1,5 +1,5 @@
 // Baekjoon_18352_특정거리의도시찾기
-package BFS;
+package Graph;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

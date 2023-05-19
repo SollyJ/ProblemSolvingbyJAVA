@@ -1,5 +1,5 @@
 // Programmers_예산
-package ProgrammersLv1;
+package SimpleAlgorithm;
 
 import java.util.Arrays;
 

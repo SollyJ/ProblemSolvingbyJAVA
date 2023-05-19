@@ -1,5 +1,5 @@
 // Programmers_최대공약수최소공배수
-package ProgrammersLv1;
+package Mathematics;
 
 public class 최대공약수_최소공배수 {
 	public static void main(String[] args) {

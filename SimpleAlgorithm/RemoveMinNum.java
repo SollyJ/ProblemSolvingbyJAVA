@@ -1,5 +1,5 @@
 // Programmers_제일 작은수 제거
-package ProgrammersLv1;
+package SimpleAlgorithm;
 
 import java.util.Arrays;
 

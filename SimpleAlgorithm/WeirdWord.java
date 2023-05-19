@@ -1,5 +1,5 @@
 // Programmers_이상한문자만들기
-package ProgrammersLv1;
+package SimpleAlgorithm;
 
 import java.util.ArrayList;
 import java.util.stream.Stream;

@@ -1,5 +1,5 @@
 // Programmers_콜라츠추측
-package ProgrammersLv1;
+package SimpleAlgorithm;
 
 public class Collatz {
 	public static void main(String[] args) {

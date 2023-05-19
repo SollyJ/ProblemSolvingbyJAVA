@@ -1,5 +1,5 @@
 // Programmers_정수 내림차순 배치
-package ProgrammersLv1;
+package SimpleAlgorithm;
 
 import java.util.ArrayList;
 import java.util.Collections;
