@@ -1,5 +1,5 @@
 // Programmers_문자열 내림차순 배치
-package SimpleAlgorithm;
+package String;
 
 import java.util.ArrayList;
 

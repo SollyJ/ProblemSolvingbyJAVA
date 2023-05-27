@@ -1,5 +1,5 @@
 // Programmers_문자열 정수로 바꾸기
-package SimpleAlgorithm;
+package String;
 
 public class StringToInt {
 	public static void main(String[] args) {

@@ -1,5 +1,5 @@
 // Programmers_직사각형별찍기
-package SimpleAlgorithm;
+package String;
 
 import java.util.stream.IntStream;
 

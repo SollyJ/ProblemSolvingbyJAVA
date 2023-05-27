@@ -1,5 +1,5 @@
 // Programmers_시저암호
-package SimpleAlgorithm;
+package String;
 
 public class CaesarCipher {
 	public static void main(String[] args) {
