@@ -1,4 +1,4 @@
-package Mathematics;
+package SimpleAlgorithm;
 
 import java.util.Arrays;
 
